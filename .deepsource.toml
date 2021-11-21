@@ -1,0 +1,23 @@
+version = 1
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_root = "github.com/G-11-P/MEWconnect-web-client"
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "terraform"
+enabled = true
+
+[[transformers]]
+name = "gofmt"
+enabled = true
